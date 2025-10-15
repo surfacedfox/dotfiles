@@ -1,0 +1,10 @@
+{
+    "chat.agent.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "inlineChat.accessibleDiffView": "off",
+    "terminal.integrated.initialHint": false,
+    "chat.disableAIFeatures": true,
+    "notebook.experimental.generate": false,
+    "javascript.suggest.jsdoc.generateReturns": false,
+    "typescript.suggest.jsdoc.generateReturns": false,
+}

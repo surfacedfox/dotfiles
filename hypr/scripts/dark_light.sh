@@ -43,7 +43,7 @@ set_wallpaper() {
 
 if [ "$next_mode" == "light" ]; then
     # Switch to light mode
-    
+
     notify-send "Mode" "changing to Light" -t 1500
 
     # setting neovim and waybar colors
@@ -72,7 +72,7 @@ elif [[ "$next_mode" == "dark" ]]; then
     sed -i 's/rgba(255, 255, 255, 0.5)/rgba(0, 0, 0, 0.5)/g' "$HOME/.config/waybar/style/full-top.css"
 
     # gtk theme
-    gsettings set org.gnome.desktop.interface gtk-theme "TokyoNight"
+    gsettings set org.gnome.desktop.interface gtk-theme "Papirus"
     crudini --set "$HOME/.config/Kvantum/kvantum.kvconfig" General theme "Dracula"
 
     # switch wallpaper
