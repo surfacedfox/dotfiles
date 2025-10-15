@@ -32,12 +32,12 @@ fi
 
 #_____ setup monitor ( updated teh monitor.conf for the high resolution and higher refresh rate )
 
-monitor_setting=$(cat $monitor_config | grep "monitor")
-monitor_icon="$HOME/.hyprconf/hypr/icons/monitor.png"
-if [[ "$monitor_setting" == "monitor=,preferred, auto, 1" ]]; then
-    notify-send -i "$monitor_icon" "Monitor Setup" "A popup for your monitor configuration will appear within 5 seconds." && sleep 5
-    kitty --title monitor sh -c "$scripts_dir/monitor.sh"
-fi
+#monitor_setting=$(cat $monitor_config | grep "monitor")
+#monitor_icon="$HOME/.hyprconf/hypr/icons/monitor.png"
+#if [[ "$monitor_setting" == "monitor=,preferred, auto, 1" ]]; then
+#    notify-send -i "$monitor_icon" "Monitor Setup" "A popup for your monitor configuration will appear within 5 seconds." && sleep 5
+#    kitty --title monitor sh -c "$scripts_dir/monitor.sh"
+#fi*/
 
 sleep 3
 

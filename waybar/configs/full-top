@@ -21,12 +21,12 @@
         "custom/launch_rofi", 
         "tray", 
         "hyprland/workspaces#preview", 
-        "custom/weather",
+        //"custom/weather",
         "mpris" 
     ],
 
     "modules-center": [
-        "power-profiles-daemon",
+        //"power-profiles-daemon",
         "clock",
         "custom/notify"
     ],
@@ -36,7 +36,7 @@
         "pulseaudio", 
         "pulseaudio#microphone", 
         "group/sysinfo", 
-        "group/wall", // group for wallpapers and theme
+        "custom/wallpaper", // group for wallpapers and theme
         "idle_inhibitor", 
         "custom/nightlight", 
         "custom/clipboard", 

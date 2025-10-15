@@ -34,7 +34,7 @@ window {
     cursor:                       "default";
     transparency:                 "real";
     location: northEast;
-    anchor: northEast;
+    anchor: northeast;
     fullscreen:                   false;
     enabled:                      true;
     border-radius:                @radius;

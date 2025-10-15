@@ -1,6 +1,6 @@
 #!/bin/bash
 
-city=$(timedatectl | grep "Time zone" | awk '{split($3, a, "/"); print a[2]}')
+city=$"Mumbai"
 cachedir=~/.cache/rbn
 cachefile=${0##*/}-$1
 
@@ -68,6 +68,9 @@ case $(echo ${weather[1]##*,} | tr '[:upper:]' '[:lower:]') in
     ;;
 "thundery outbreaks possible" | "patchy light rain with thunder" | "moderate or heavy rain with thunder" | "patchy light snow with thunder")
     condition=""
+    ;;
+"Haze" | "Smoke")
+    condition=""
     ;;
 *)
     condition=""

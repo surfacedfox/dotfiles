@@ -148,7 +148,7 @@
         },
         "format": "{icon} {windows}",
         "format-window-separator": " ",
-        "window-rewrite-default": " ",
+        "window-rewrite-default": "󰘔 ",
         "window-rewrite": {		
             "title<.*amazon.*>": " ",
             "title<.*reddit.*>": " ",
@@ -166,6 +166,8 @@
             "class<kitty-dropterm>": " ",
             "class<com.mitchellh.ghostty>": " ",
             "class<org.wezfurlong.wezterm>": " ",
+            "class<unityhub-bin|[Uu]nity>": " ",
+            "class<[Uu]nreal[Eeditor]>": "󰦱 ",
 
             "class<[Tt]hunderbird|[Tt]hunderbird-esr>": " ",
             "class<eu.betterbird.Betterbird>": " ",
@@ -181,10 +183,6 @@
             "title<.*reddit.*>": " ",
             "title<.*github.com.*>": " ",
 
-
-            "title<.*ChatGPT.*>": "󰚩 ",
-            "title<.*deepseek.*>": "󰚩 ",
-            "title<.*qwen.*>": "󰚩 ",
             "class<subl>": "󰅳 ",
             "class<slack>": " ",
 
@@ -218,6 +216,7 @@
             "title<.*figma.*>": " ",
             "title<.*jira.*>": " ",
             "class<jetbrains-idea>": " ",
+            "class<jetbrains-rider>": " ",
 
             "class<obs|com.obsproject.Studio>": " ",
 
@@ -225,7 +224,7 @@
             "class<nwg-look>": " ",
             "class<[Pp]avucontrol|org.pulseaudio.pavucontrol>": "󱡫 ",
             "class<steam>": " ",
-            "class<thunar|nemo>": "󰝰 ",	
+            "class<thunar|nemo|nautilus>": "󰝰 ",	
             "class<Gparted>":"",
             "class<gimp>": " ",
             "class<emulator>": "📱 ",

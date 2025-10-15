@@ -64,12 +64,3 @@ F3 | decrease brightness
  + mouse scroll | cycle workspaces
  + left click | move window
  + right click | resize window
-ALT + R | open Reddit
-ALT + X | open X (Twitter)
-ALT + f | open Facebook
-ALT + I | open Instagram
-ALT + Y | open YouTube
-ALT + W | open WhatsApp Web
-ALT + G | open GitHub
-ALT + A | open ChatGPT
-CTRL + ALT + A | open Gemini

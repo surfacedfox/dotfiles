@@ -97,9 +97,8 @@
     // Wallpaper
     "custom/wallpaper": {
         "format": "󰸉 ",
-        "tooltip-format": "Left Click: Change wallpaper\nRight Click: Select Wallpaper",
-        "on-click": "~/.config/hypr/scripts/Wallpaper.sh",
-        "on-click-right": "~/.config/hypr/scripts/WallpaperSelect.sh thm2"
+        "tooltip-format": "Change wallpaper",
+        "on-click": "~/.config/hypr/scripts/WallpaperSelect.sh thm2"        
     },
 
     // Theme (dark light)
@@ -157,5 +156,19 @@
         "on-scroll-up": "~/.config/hypr/scripts/volumecontrol.sh --inc",
         "on-scroll-down": "~/.config/hypr/scripts/volumecontrol.sh --dec",
         "orientation": "vertical"
+    },
+    
+    "custom/bluetooth": {
+        // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+        "format": "󰂯 {status}",
+        // format-* handles every state, so default format is not necessary.
+        "format-on": "󰂯",
+        "format-off": "󰂲",
+        "format-disabled": "", // an empty format will hide the module
+        "format-connected": "󰂱 {num_connections}",
+        // "tooltip-format": "{controller_alias}\t{controller_address}",
+        // "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-connected": "{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
     },
 }
