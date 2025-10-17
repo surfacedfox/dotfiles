@@ -105,8 +105,8 @@
         // },
         "format-icons": {
             // for arch
-            // "active": "󰮯",
-            // "default": ""
+            "active": "󰮯",
+            "default": ""
 
             // for fedora
             //  "active": "󰣛",  
@@ -133,6 +133,8 @@
         "warp-on-scroll": false,
         "sort-by-number": true,
         "show-special": false,
+        "active-only": true,
+        "move-to-monitor": true,
         "on-click": "activate",
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1",
@@ -144,11 +146,17 @@
             "2": [],
             "3": [],
             "4": [],
-            "5": []
+            "5": [],
+            "6": [],
+            "7": [],
+            "8": [],
+            "9": [],
+            "10": []
         },
         "format": "{icon} {windows}",
         "format-window-separator": " ",
-        "window-rewrite-default": "󰘔 ",
+        "icon-rewrite-default": " ",
+        "window-rewrite-default": " ",
         "window-rewrite": {		
             "title<.*amazon.*>": " ",
             "title<.*reddit.*>": " ",
@@ -162,7 +170,7 @@
             "class<tor browser>": " ",
             "class<firefox-developer-edition>": "󰈹 ",
 
-            "class<kitty>": "󰄛 ",
+            "class<kitty>": " ",
             "class<kitty-dropterm>": " ",
             "class<com.mitchellh.ghostty>": " ",
             "class<org.wezfurlong.wezterm>": " ",
@@ -231,8 +239,17 @@
             "class<android-studio>": " ",
             "class<org.pipewire.Helvum>": "󰓃",
             "class<localsend>":"",
+            "class<blender>":"",
+            "[Uu]nreal": "󰦱 ",
             "class<PrusaSlicer|UltiMaker-Cura|OrcaSlicer>": "󰹛",
-            "class<org.bleachbit.BleachBit>": " "
+            "class<org.bleachbit.BleachBit>": " ",
+            "godot": " ",
+            "teams": "󰊻 ",
+            "wivrn": " ",
+            "pcsx2": " ",
+            "duckstation": " ",
+            "rpcs3": " ",
+
             }
         },
 

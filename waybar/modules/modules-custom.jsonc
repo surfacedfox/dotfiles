@@ -98,7 +98,8 @@
     "custom/wallpaper": {
         "format": "󰸉 ",
         "tooltip-format": "Change wallpaper",
-        "on-click": "~/.config/hypr/scripts/WallpaperSelect.sh thm2"        
+        "on-click": "~/.config/hypr/scripts/WallpaperSelect.sh thm2",
+        "on-click-right": "~/.config/hypr/scripts/Wallpaper.sh"
     },
 
     // Theme (dark light)

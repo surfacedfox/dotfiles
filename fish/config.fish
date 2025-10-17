@@ -1,5 +1,5 @@
 # disable fish greeting and vi mode
-set fish_greeting
+#set fish_greeting
 fish_vi_key_bindings
 
 #===============================================#
